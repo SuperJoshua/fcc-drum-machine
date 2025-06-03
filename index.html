@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="author" content="joshua">
+   <meta name="description" content="javascript drum machine">
+   <meta name="keywords" content="javascript, drum, machine">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FCC FELP Drum Machine</title>
+   <link rel="icon" type="image/x-icon" href="./favicon.ico">
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <main>
+      <div id="drum-machine">
+         <h1>Noisemaker</h1>
+         <div id="display"><!-- this is where the clip name goes --></div>
+         <div id="buttons">
+            <button type="button" id="open-high-hat" class="drum-pad">
+               Q
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3" id="Q" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="closed-high-hat" class="drum-pad">
+               W
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3" id="W" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="shaker" class="drum-pad">
+               E
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3" id="E" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="side-stick" class="drum-pad">
+               A
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3" id="A" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="snare" class="drum-pad">
+               S
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3" id="S" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="clap" class="drum-pad">
+               D
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3" id="D" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="kick" class="drum-pad">
+               Z
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3" id="Z" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="kick-n-hat" class="drum-pad">
+               X
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3" id="X" class="clip" preload="auto">
+               </audio>
+            </button>
+
+            <button type="button" id="punchy-kick" class="drum-pad">
+               C
+               <audio type="audio/mpeg" src="https://s3.amazonaws.com/freecodecamp/drums/punchy_kick_1.mp3" id="C" class="clip" preload="auto">
+               </audio>
+            </button>
+         </div>
+      </div>
+   </main>
+   <script src="index.js" defer></script>
+</body>
+</html>

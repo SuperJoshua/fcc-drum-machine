@@ -1,0 +1,51 @@
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+main {
+   width: 400px;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#drum-machine {
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+h1 {
+   letter-spacing: 3px;
+}
+
+#display {
+   width: 100%;
+   height: 30px;
+   border: 1px dotted black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+#buttons {
+   width: 400px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.drum-pad {
+   width: 133px;
+   height: 133px;
+}
