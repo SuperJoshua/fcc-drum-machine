@@ -4,7 +4,7 @@
 
 Make some noise. Slowly...
 
-This was a project required for getting the JavaScript Algorithms and Data Structures Certificate from freeCodeCamp. It had to fulfill these "user stories".
+This was a project required for getting the Front End Development Libraries Certificate from freeCodeCamp. It had to fulfill these "user stories".
 
 - I should be able to see an outer container with a corresponding id="drum-machine" that contains all other elements.
 - Within #drum-machine I can see an element with a corresponding id="display".
